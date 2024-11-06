@@ -1,0 +1,72 @@
+[ec2-user@ip-172-31-5-70 ~]$ sudo -i
+[root@ip-172-31-5-70 ~]# 
+logout
+[ec2-user@ip-172-31-5-70 ~]$ mkdir hello.py
+[ec2-user@ip-172-31-5-70 ~]$ mkdir hi.py today.py tomorrow.py yesterday.py november.py
+mkdir: cannot create directory ‘hi.py’: File exists
+[ec2-user@ip-172-31-5-70 ~]$ rm hi.py
+rm: cannot remove 'hi.py': Is a directory
+[ec2-user@ip-172-31-5-70 ~]$ rmdir -v hi.py
+rmdir: removing directory, 'hi.py'
+[ec2-user@ip-172-31-5-70 ~]$ ls
+day1.py  hello.py  lin.py  november.py  practice.py  today.py  tomorrow.py  yesterday.py
+[ec2-user@ip-172-31-5-70 ~]$ ls
+day1.py  hello.py  lin.py  november.py  practice.py  today.py  tomorrow.py  yesterday.py
+[ec2-user@ip-172-31-5-70 ~]$ ls -l
+total 0
+drwxr-xr-x. 2 ec2-user ec2-user 6 Nov  6 03:54 day1.py
+drwxr-xr-x. 2 ec2-user ec2-user 6 Nov  6 04:02 hello.py
+drwxr-xr-x. 2 ec2-user ec2-user 6 Nov  6 03:54 lin.py
+drwxr-xr-x. 2 ec2-user ec2-user 6 Nov  6 04:03 november.py
+-rw-r--r--. 1 ec2-user ec2-user 0 Nov  6 03:50 practice.py
+drwxr-xr-x. 2 ec2-user ec2-user 6 Nov  6 04:03 today.py
+drwxr-xr-x. 2 ec2-user ec2-user 6 Nov  6 04:03 tomorrow.py
+drwxr-xr-x. 2 ec2-user ec2-user 6 Nov  6 04:03 yesterday.py
+ 1  ls
+    2  uname -help
+    3  uname --hlp
+    4  uname --help
+    5  sudo
+    6  sudo -i
+    7  sudo --help
+    8  sudo -i 
+    9  clear
+   10  sudo -i
+   11  pwd
+   12  ls
+   13  ls -l
+   14  cd
+   15  cd Practice
+   16  cd..
+   17  cd --help
+   18  touch linux.py
+   19  history
+   20  sudo -i
+   21  mv linux.py practice.py
+   22  ls
+   23  mkdir day1.py lin.py hi.py
+   24  ls
+   25  ls -l
+   26  ls -la
+   27  ls -ltr
+   28  cd..
+   29  cd ..
+   30  cd .. -help
+   31  cd hi.py
+   32  cd hi
+   33  rmdir practice.py
+   34  rmdir hi.py
+   35  rmdir hi
+   36  rmdir hi.py
+   37  ls
+   38  ls -l
+   39  mkdir hi.py bye.py stop.py helo.py
+   40  mkdir hello.py
+   41  clear
+   42  sudo -i
+   43  mkdir hello.py
+   44  mkdir hi.py today.py tomorrow.py yesterday.py november.py
+   45  rm hi.py
+   46  rmdir -v hi.py
+   47  ls
+   48  ls -l
